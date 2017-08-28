@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Feature1 from './Feature1';
 import Feature2 from './Feature2';
+import Feature3 from './Feature3';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Feature1 />
         <Feature2 />
+        <Feature3 />
       </div>
     );
   }
